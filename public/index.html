@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Player | Login page</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <!-- Main Content -->
+    <main>
+      <!-- Login Section -->
+      <section class="py-10 px-5 md:p-10 xl:py-10 xl:pl-10 overflow-hidden">
+        <div class="custom-container">
+          <div
+            class="max-w-[600px]  xl:max-w-[1206px] w-full flex mx-auto xl:ml-0 xl:mr-0 flex-col xl:flex-row xl:items-center gap-[50px] xl:gap-[120px] relative"
+          >
+            <div class="hero-gradient-overlay"></div>
+
+            <!-- Hero Image -->
+            <div class="flex-1 relative">
+              <img src="images/hero.png" alt="Hero" />
+
+              <div
+                class="absolute top-[80px] left-[50px] md:top-[145px] md:left-[90px] z-10 w-full max-w-[426px]"
+              >
+                <img
+                  class="w-[100px] md:w-[150px] h-auto object-contain"
+                  src="images/hero-logo.svg"
+                  alt="hero logo"
+                />
+
+                <h1 class="mt-4 md:mt-8 hero-gradient-text">
+                  Find Your <span>Player 02</span>
+                </h1>
+              </div>
+            </div>
+            <!-- Hero Image -->
+
+            <!-- Hero Content -->
+            <div class="w-full md:w-[416px] mx-auto xl:ml-0 xl:mr-0">
+              <h2 class="uppercase">
+                login to <span class="block">your account</span>
+              </h2>
+
+              <form action="" class="mt-8">
+                <div class="flex flex-col gap-8">
+                  <!-- Single Input -->
+                  <label>
+                    <span class="label-style">Email</span>
+                    <input
+                      type="email"
+                      class="input-style"
+                      placeholder="yourname@gmail.com"
+                    />
+                  </label>
+                  <!-- Single Input -->
+
+                  <!-- Single Input -->
+                  <label>
+                    <span class="label-style w-fit">Password</span>
+
+                    <div class="relative">
+                      <input
+                        type="password"
+                        class="input-style"
+                        id="password"
+                        placeholder="yourname@gmail.com"
+                      />
+
+                      <button
+                        type="button"
+                        class="toggle-password w-[18px] h-auto absolute top-1/2 right-[27px] -translate-y-1/2"
+                      >
+                        <div class="relative">
+                          <img src="images/eye.svg" alt="eye icon" />
+                          <div class="eye-cross"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </label>
+                  <!-- Single Input -->
+                </div>
+
+                <div class="flex items-center justify-between mt-8">
+                  <!-- Single Input -->
+                  <label
+                    class="flex items-center gap-[10px] w-fit cursor-pointer"
+                  >
+                    <input
+                      type="checkbox"
+                      class="form-checkbox text-custom-purple-500 rounded-[4px]"
+                      checked
+                    />
+                    <span
+                      class="label-style label-style--lg mb-0 text-custom-white"
+                      >Remember me</span
+                    >
+                  </label>
+                  <!-- Single Input -->
+
+                  <a
+                    href="#"
+                    class="text-custom-purple-500 text-base leading-normal font-semibold hover:underline"
+                    >Forgot Password?</a
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="custom-btn custom-btn--shadow mt-9"
+                >
+                  Log IN
+                  <img
+                    class="w-[10px] h-auto"
+                    src="images/button-arrow-right.svg"
+                    alt="arrow"
+                  />
+                </button>
+              </form>
+
+              <p class="desc--16 text-custom-purple-200 text-center mt-10">
+                Don’t have an account?
+                <a href="#" class="font-semibold underline">Register Here</a>
+              </p>
+
+              <div class="mt-[34px]">
+                <p class="desc--16 text-custom-purple-200 text-center">
+                  Or Login With
+                </p>
+
+                <ul
+                  class="social-icons flex items-center justify-center gap-4 mt-5"
+                >
+                  <!-- Single Icon -->
+                  <li>
+                    <a
+                      href="#"
+                      class="social-icon w-[60px] h-[60px] md:w-[70px] md:h-[70px] rounded-[10px] bg-custom-black-mute flex items-center justify-center"
+                    >
+                      <svg
+                        width="42"
+                        height="40"
+                        viewBox="0 0 42 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M41.122 20.128C41.122 9.0159 32.1126 0.00646973 21.0005 0.00646973C9.88834 0.00646973 0.878906 9.0159 0.878906 20.128C0.878906 30.1721 8.23669 38.4957 17.8565 40.0048V25.9448H12.7473V20.1264H17.8565V15.6963C17.8565 10.6541 20.8613 7.8673 25.4574 7.8673C27.6574 7.8673 29.9613 8.26134 29.9613 8.26134V13.2129H27.4226C24.9225 13.2129 24.1428 14.764 24.1428 16.3552V20.128H29.7232L28.8311 25.9465H24.1428V40.0065C33.7643 38.4957 41.122 30.1704 41.122 20.128Z"
+                          fill="#BF86F9"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <!-- Single Icon -->
+
+                  <!-- Single Icon -->
+                  <li>
+                    <a
+                      href="#"
+                      class="social-icon w-[60px] h-[60px] md:w-[70px] md:h-[70px] rounded-[10px] bg-custom-black-mute flex items-center justify-center"
+                    >
+                      <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 20.0065C0 8.97847 8.972 0.00646973 20 0.00646973C24.4539 0.00646973 28.6695 1.43942 32.1912 4.15047L27.5436 10.1878C25.3661 8.51161 22.7575 7.62552 20 7.62552C13.1731 7.62552 7.61905 13.1796 7.61905 20.0065C7.61905 26.8333 13.1731 32.3874 20 32.3874C25.4985 32.3874 30.171 28.7849 31.7813 23.816H20V16.1969H40V20.0065C40 31.0345 31.028 40.0065 20 40.0065C8.972 40.0065 0 31.0345 0 20.0065Z"
+                          fill="#BF86F9"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <!-- Single Icon -->
+
+                  <!-- Single Icon -->
+                  <li>
+                    <a
+                      href="#"
+                      class="social-icon w-[60px] h-[60px] md:w-[70px] md:h-[70px] rounded-[10px] bg-custom-black-mute flex items-center justify-center"
+                    >
+                      <svg
+                        width="42"
+                        height="32"
+                        viewBox="0 0 42 32"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M35.5488 2.65917C32.827 1.40977 29.9545 0.518835 27.0034 0.00866856C26.9766 0.00366734 26.9489 0.00724741 26.9243 0.018899C26.8996 0.0305507 26.8793 0.0496804 26.8661 0.0735668C26.497 0.73007 26.0882 1.58634 25.802 2.25929C22.5751 1.77614 19.3647 1.77614 16.2041 2.25929C15.9179 1.5713 15.4943 0.73007 15.1236 0.0735668C15.1098 0.0502247 15.0894 0.031563 15.0649 0.0200172C15.0404 0.00847133 15.013 0.0045777 14.9863 0.00884373C12.0349 0.517824 9.16222 1.40869 6.4407 2.65899C6.41742 2.66894 6.3978 2.68587 6.38455 2.70745C0.941859 10.8388 -0.549223 18.7702 0.182324 26.6032C0.184393 26.6224 0.190289 26.641 0.199664 26.6578C0.209038 26.6747 0.221701 26.6895 0.236901 26.7014C3.82781 29.3386 7.30625 30.9395 10.7201 32.0006C10.7467 32.0086 10.775 32.0082 10.8013 31.9995C10.8277 31.9909 10.8507 31.9745 10.8674 31.9524C11.6749 30.8496 12.3947 29.6867 13.012 28.4639C13.0205 28.4472 13.0254 28.4289 13.0262 28.4101C13.0271 28.3914 13.024 28.3726 13.0172 28.3552C13.0103 28.3377 12.9998 28.3219 12.9864 28.3088C12.9729 28.2956 12.9569 28.2855 12.9393 28.2791C11.7973 27.8459 10.7102 27.3178 9.66427 26.7182C9.6452 26.707 9.62917 26.6912 9.61762 26.6724C9.60607 26.6535 9.59933 26.6321 9.59802 26.61C9.59671 26.5879 9.60085 26.5659 9.61009 26.5458C9.61932 26.5257 9.63336 26.5082 9.65097 26.4948C9.87103 26.3298 10.0913 26.1584 10.3014 25.985C10.32 25.9697 10.3426 25.9598 10.3666 25.9565C10.3906 25.9533 10.415 25.9568 10.4371 25.9667C17.3079 29.1037 24.7462 29.1037 31.5358 25.9667C31.5579 25.9562 31.5826 25.9521 31.6069 25.9551C31.6312 25.958 31.6542 25.9678 31.6731 25.9833C31.8834 26.1565 32.1034 26.3298 32.3252 26.4948C32.3429 26.508 32.357 26.5254 32.3664 26.5454C32.3757 26.5654 32.38 26.5874 32.3789 26.6095C32.3778 26.6315 32.3712 26.6529 32.3598 26.6719C32.3485 26.6908 32.3326 26.7066 32.3137 26.718C31.2674 27.3291 30.1714 27.8507 29.0373 28.2773C29.0197 28.284 29.0037 28.2944 28.9904 28.3077C28.9771 28.3211 28.9667 28.3371 28.96 28.3547C28.9533 28.3723 28.9503 28.3912 28.9514 28.41C28.9524 28.4288 28.9575 28.4472 28.9661 28.4639C29.5966 29.6849 30.3164 30.8479 31.109 31.9506C31.1252 31.9734 31.1481 31.9904 31.1745 31.9994C31.201 32.0084 31.2296 32.0088 31.2563 32.0006C34.6866 30.9393 38.165 29.3384 41.7559 26.7014C41.7714 26.6901 41.7843 26.6756 41.7937 26.659C41.8032 26.6423 41.8089 26.6239 41.8107 26.6048C42.686 17.5488 40.3444 9.68251 35.6034 2.70902C35.5917 2.68637 35.5724 2.66862 35.5488 2.65899V2.65917ZM14.038 21.8337C11.9695 21.8337 10.265 19.9345 10.265 17.6022C10.265 15.27 11.9364 13.3709 14.0382 13.3709C16.1562 13.3709 17.8441 15.2867 17.811 17.6024C17.811 19.9345 16.1396 21.8337 14.038 21.8337ZM27.9881 21.8337C25.9196 21.8337 24.2151 19.9345 24.2151 17.6022C24.2151 15.27 25.8863 13.3709 27.9881 13.3709C30.1061 13.3709 31.794 15.2867 31.7609 17.6024C31.7609 19.9345 30.1061 21.8337 27.9881 21.8337Z"
+                          fill="#BF86F9"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <!-- Single Icon -->
+                </ul>
+              </div>
+            </div>
+            <!-- Hero Content -->
+          </div>
+        </div>
+      </section>
+      <!-- Login Section -->
+    </main>
+    <!-- Main Content -->
+  </body>
+
+  <!-- Custom JS File -->
+  <script src="js/main.js"></script>
+</html>
