@@ -21,11 +21,11 @@ module.exports = {
         'custom-purple-500': '#BF86F9',
         'custom-purple-200': '#CEC3D5',
       },
-      screens: {
-        sm: { max: '999px' },
-        md: { min: '1000px', max: '1200px' },
-        lg: { min: '1201px' },
-      },
+      // screens: {
+      //   sm: { max: '999px' },
+      //   md: { min: '1000px', max: '1200px' },
+      //   lg: { min: '1201px' },
+      // },
     },
   },
   plugins: [require('@tailwindcss/custom-forms')],
